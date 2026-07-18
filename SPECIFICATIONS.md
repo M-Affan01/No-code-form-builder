@@ -1,4 +1,4 @@
-# 📐 Specification Documents
+# Specification Documents
 
 ## Overview
 
@@ -6,7 +6,7 @@ This project was built using a structured specification-driven development appro
 
 ---
 
-## 📋 Document Index
+## Document Index
 
 | Document | Full Name | Purpose |
 |----------|-----------|---------|
