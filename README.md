@@ -10,7 +10,7 @@
 
 **A powerful no-code form builder that lets you create, customize, and export HTML forms through an intuitive drag-and-drop interface — all client-side, no server required.**
 
-[Live Demo](http://localhost:3000) • [Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation)
+[Live Demo](http://localhost:3000) • [Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Specifications](SPECIFICATIONS.md)
 
 </div>
 
