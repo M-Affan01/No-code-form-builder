@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔷 No-code Form Builder
+# No-code Form Builder
 
 ### Drag-Drop Form Builder | JSON Save | HTML/CSS/JS Export
 
@@ -10,42 +10,12 @@
 
 **A powerful no-code form builder that lets you create, customize, and export HTML forms through an intuitive drag-and-drop interface — all client-side, no server required.**
 
-[Live Demo](http://localhost:3000) • [Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Specifications](SPECIFICATIONS.md)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Tech Stack](#-tech-stack)
-- [Quick Start](#-quick-start)
-- [Project Structure](#-project-structure)
-- [Architecture](#-architecture)
-- [Features Documentation](#-features-documentation)
-  - [Field Management](#1-field-management)
-  - [Property Configuration](#2-property-configuration)
-  - [Live Preview](#3-live-preview)
-  - [JSON Schema](#4-json-schema)
-  - [Code Export](#5-code-export)
-  - [Form Submissions](#6-form-submissions)
-  - [Persistence](#7-persistence)
-- [Validation System](#-validation-system)
-- [State Management](#-state-management)
-- [JSON Schema Format](#-json-schema-format)
-- [API Reference](#-api-reference)
-- [Keyboard Shortcuts](#-keyboard-shortcuts)
-- [Browser Support](#-browser-support)
-- [Performance](#-performance)
-- [Error Handling](#-error-handling)
-- [FAQ](#-faq)
-- [Contributing](#-contributing)
-
----
-
-## 🔍 Overview
+## Overview
 
 **No-code Form Builder** is a client-side web application that enables users to create, customize, and manage HTML forms through an intuitive drag-and-drop interface. The system generates form schemas in JSON format and provides export capabilities for HTML, CSS, and JavaScript code.
 
@@ -65,35 +35,35 @@ Building HTML forms traditionally requires knowledge of HTML, CSS, and JavaScrip
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Core Features
 
 | Feature | Description |
 |---------|-------------|
-| 🖱️ **Drag & Drop** | 7 field types: Text, Email, Number, Checkbox, Radio, Select, File |
-| ⚙️ **Field Properties** | Label, Name, Placeholder, Required, Validation rules |
-| 📋 **Live Preview** | Real-time form rendering with interactive testing |
-| 💾 **JSON Schema Save** | Complete form configuration saved as JSON |
-| 📤 **Code Export** | Download HTML, CSS, JS files or complete package |
-| 📊 **Submissions** | Capture, view, search, sort, and export form responses |
-| 💽 **Auto-Save** | Automatic persistence to localStorage every 5 seconds |
+| **Drag & Drop** | 7 field types: Text, Email, Number, Checkbox, Radio, Select, File |
+| **Field Properties** | Label, Name, Placeholder, Required, Validation rules |
+| **Live Preview** | Real-time form rendering with interactive testing |
+| **JSON Schema Save** | Complete form configuration saved as JSON |
+| **Code Export** | Download HTML, CSS, JS files or complete package |
+| **Submissions** | Capture, view, search, sort, and export form responses |
+| **Auto-Save** | Automatic persistence to localStorage every 5 seconds |
 
 ### Advanced Features
 
 | Feature | Description |
 |---------|-------------|
-| 🔀 **Field Reordering** | Drag fields within canvas or use arrow buttons |
-| ✅ **Validation Engine** | Comprehensive field-level and form-level validation |
-| 📱 **Responsive Design** | Works on desktop and tablet screens |
-| 🎨 **Dark Theme** | Modern glassmorphism UI with smooth animations |
-| 📁 **Multiple Forms** | Create, load, switch between, and delete multiple forms |
-| 🔔 **Toast Notifications** | User-friendly feedback for all actions |
-| 🛡️ **Error Boundary** | Graceful error recovery with detailed error info |
+| **Field Reordering** | Drag fields within canvas or use arrow buttons |
+| **Validation Engine** | Comprehensive field-level and form-level validation |
+| **Responsive Design** | Works on desktop and tablet screens |
+| **Dark Theme** | Modern glassmorphism UI with smooth animations |
+| **Multiple Forms** | Create, load, switch between, and delete multiple forms |
+| **Toast Notifications** | User-friendly feedback for all actions |
+| **Error Boundary** | Graceful error recovery with detailed error info |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose | Version |
 |------------|---------|---------|
@@ -106,7 +76,7 @@ Building HTML forms traditionally requires knowledge of HTML, CSS, and JavaScrip
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -143,7 +113,7 @@ npm run preview
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 no-code-form-builder/
@@ -197,7 +167,7 @@ no-code-form-builder/
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### State Management Flow
 
@@ -253,7 +223,7 @@ App
 
 ---
 
-## 📖 Features Documentation
+## Features Documentation
 
 ### 1. Field Management
 
@@ -516,7 +486,7 @@ The form schema follows a structured JSON format:
 
 ---
 
-## ✅ Validation System
+## Validation System
 
 ### Field Name Validation
 
@@ -592,7 +562,7 @@ The form schema follows a structured JSON format:
 
 ---
 
-## 🔄 State Management
+## State Management
 
 ### Application States
 
@@ -649,7 +619,7 @@ INITIAL_START → IDLE → BUILDING ↔ PREVIEW → SUBMITTING → SUBMISSIONS
 
 ---
 
-## 📐 JSON Schema Format
+## JSON Schema Format
 
 ### Complete Schema Structure
 
@@ -696,7 +666,7 @@ INITIAL_START → IDLE → BUILDING ↔ PREVIEW → SUBMITTING → SUBMISSIONS
 
 ---
 
-## 📚 API Reference
+## API Reference
 
 ### Utility Functions
 
@@ -760,7 +730,7 @@ import {
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Action | Shortcut |
 |--------|----------|
@@ -772,7 +742,7 @@ import {
 
 ---
 
-## 🌐 Browser Support
+## Browser Support
 
 | Browser | Version | Status |
 |---------|---------|--------|
@@ -789,7 +759,7 @@ import {
 
 ---
 
-## ⚡ Performance
+## Performance
 
 | Metric | Target | Condition |
 |--------|--------|-----------|
@@ -804,7 +774,7 @@ import {
 
 ---
 
-## 🛡️ Error Handling
+## Error Handling
 
 ### Error Types
 
@@ -829,7 +799,7 @@ The app includes a React Error Boundary that:
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 ### Q: Is this a server-side application?
 **A:** No. Everything runs client-side in your browser. No server, no database, no authentication required.
@@ -857,7 +827,7 @@ The app includes a React Error Boundary that:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing`)
@@ -883,13 +853,13 @@ npm run build
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [React](https://reactjs.org/) - UI Framework
 - [Vite](https://vitejs.dev/) - Build Tool
@@ -901,7 +871,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 **Built with ❤️ for the no-code community**
-
-[⬆ Back to Top](#-no-code-form-builder)
 
 </div>
